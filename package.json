@@ -1,0 +1,11 @@
+{
+  "name": "scriptkitten",
+  "version": "1.0.0",
+  "description": "Homemade ScriptKit for Linux — Bun + TypeScript + Ulauncher",
+  "scripts": {
+    "register": "bun run scripts/_register.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
