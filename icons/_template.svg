@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="64" height="64" rx="14"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- YOUR ICON CONTENT HERE -->
+
+  <!-- Corner ribbon (top-left) — keep this last so it renders on top -->
+  <polygon points="0,0 32,0 0,32" fill="black" clip-path="url(#round)"/>
+</svg>

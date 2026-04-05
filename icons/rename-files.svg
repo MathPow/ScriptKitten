@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#f97316"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="64" height="64" rx="14"/></clipPath>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Back file -->
+  <rect x="20" y="14" width="22" height="28" rx="3" fill="white" opacity="0.5"/>
+  <!-- Front file -->
+  <path d="M14 20 h16 l6 6 v22 a3 3 0 0 1-3 3 H17 a3 3 0 0 1-3-3 Z" fill="white" opacity="0.95"/>
+  <!-- Dog-ear -->
+  <path d="M30 20 l6 6 h-6 Z" fill="#f59e0b" opacity="0.7"/>
+  <!-- Lines on front file -->
+  <line x1="19" y1="33" x2="32" y2="33" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <line x1="19" y1="38" x2="29" y2="38" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+  <!-- Pencil -->
+  <g transform="rotate(-40, 46, 46)">
+    <rect x="41" y="36" width="8" height="18" rx="1.5" fill="white"/>
+    <polygon points="41,54 49,54 45,60" fill="#fbbf24"/>
+    <rect x="41" y="36" width="8" height="4" rx="1" fill="#fca5a5"/>
+    <line x1="45" y1="54" x2="45" y2="58" stroke="#f59e0b" stroke-width="1"/>
+  </g>
+  <!-- Corner ribbon (top-left) -->
+  <polygon points="0,0 32,0 0,32" fill="black" clip-path="url(#round)"/>
+</svg>
